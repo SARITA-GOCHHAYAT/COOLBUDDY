@@ -1,0 +1,142 @@
+ * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: 620px;
+        background-image: url(https://img.freepik.com/premium-photo/happy-beautiful-young-woman-blue-dress-with-his-hand-holding-shopping-bags-finger-pointing-light-blue-with-copy-space_74952-576.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .form-box {
+        width: 90%;
+        max-width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #5D9C59;
+        padding: 50px 60px 70px;
+        text-align: center;
+    }
+
+    .form-box h1 {
+        font-size: 30px;
+        margin-bottom: 60px;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+    }
+
+    .form-box h1::after {
+        content: '';
+        width: 50px;
+        height: 4px;
+        border-radius: 3px;
+        background:white;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .input-field {
+        background: #eaeaea;
+        margin: 15px 0;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        max-height: 65px;
+        transition: max-height 0.5s;
+        overflow: hidden;
+    }
+
+    input {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 18px 15px;
+    }
+
+    .input-field i {
+        margin-left: 15px;
+        color: #999;
+    }
+
+    form p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    form p a {
+        text-decoration: none;
+        color: #e9edf3;
+        font-weight: bolder;
+    }
+
+    .btn-field {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .btn-field button {
+        flex-basis: 48%;
+        background-color: #0A2647;
+        color: #fff;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+    }
+
+    .input-group {
+        height: 280px;
+    }
+
+    #navright {
+        display: flex;
+        align-items: center;
+        margin-left: 80%;
+        justify-content: center;
+        text-align: center;
+        gap: 6%;
+    }
+
+    #navright>div {
+        align-items: center;
+    }
+
+    #navright>div>p {
+        color: white;
+        font-weight: bold;
+    }
+
+    i {
+        color: white;
+    }
+    @media screen and (max-width:800px){
+        .form-box {
+        width: 60%;
+    }
+
+    .form-box h1 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+    }
+
+
+}
+@media  screen and (max-width:450px) {
+
+}
